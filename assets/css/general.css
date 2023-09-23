@@ -1,0 +1,24 @@
+.content {
+    height: calc(100vh - 56px) !important;
+    position: relative;
+    padding: 50px 50px 50px 50px;
+    color: white;
+}
+
+.gradient {
+    background: linear-gradient(170deg, rgba(81,128,194,1) 0%, rgba(24,63,110,1) 54%, rgba(0,17,41,1) 100%);
+}
+
+.content > h1 {
+    font-size: 80px;
+}
+
+.content > img {
+    position: absolute;
+    right: 40%;
+    top: 60%;
+}
+
+.hidden {
+    display: none !important;
+}

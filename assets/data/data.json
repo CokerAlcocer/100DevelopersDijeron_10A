@@ -1,0 +1,123 @@
+[
+    {
+        "q": "¿Cómo se llama la práctica o parte de la estructura de NIST donde se determina que proteger y que no, y se evalúan los riesgos que causen brechas de seguridad?",
+        "a": ["Identificar", "Detectar", "Recuperar"],
+        "r": "Identificar"
+    },{
+        "q": "¿Cómo se llama la práctica o parte de la estructura de NIST donde se implementan los controladores para reducir riesgos de los activos identificados?",
+        "a": ["Recuperar", "Responder", "Proteger"],
+        "r": "Proteger"
+    },{
+        "q": "¿Cómo se llama la práctica o parte de la estructura de NIST donde se identifican los controles de tráfico de datos para la detección de brechas?",
+        "a": ["Identificar", "Detectar", "Recuperar"],
+        "r": "Detectar"
+    },{
+        "q": "¿Cómo se llama la práctica o parte de la estructura de NIST donde se reacciona ante desastres con técnicas para contener y mitigar los problemas?",
+        "a": ["Responder", "Proteger", "Identificar"],
+        "r": "Responder"
+    },{
+        "q": "¿Cómo se llama la práctica o parte de la estructura de NIST posterior a la respuesta al desaster para la restauración del sistema?",
+        "a": ["Responder", "Recuperar", "Proteger"],
+        "r": "Recuperar"
+    },{
+        "q": "Forma parte de los controladores: Marco de _______________.",
+        "a": ["estándares", "ciberseguridad", "cerftificación"],
+        "r": "Ciberseguridad"
+    },{
+        "q": "Forma parte de los controladores: _______________ de criptografía.",
+        "a": ["Ciberseguridad", "Estándares", "Desarrollo seguro"],
+        "r": "Estándares"
+    },{
+        "q": "Forma parte de los controladores: Estándares de _______________.",
+        "a": ["ciberseguridad", "desarrollo seguro", "seguridad de la información"],
+        "r": "Seguridad de la información"
+    },{
+        "q": "¿Qué significan las siglas FIPS?",
+        "a": ["Federal Information <br>Processing Standars", "Formal Intelligence <br>Protocol Security", "Format Information <br>Political Secure"],
+        "r": "Federal Information Processing Standars"
+    },{
+        "q": "Forma parte de los controladores: Pautas de _______________.",
+        "a": ["seguridad de la información", "ciberseguridad", "desarrollo seguro"],
+        "r": "Desarrollo seguro"
+    },{
+        "q": "Forma parte de los controladores: Evaluación de _______________ y _______________.",
+        "a": ["seguridad, estadarización", "seguridad y certificación", "ciberseguridad y valicación"],
+        "r": "Seguridad, certificación"
+    },{
+        "q": "VERDADERO O FALSO: ¿NIST contribuye a DevOps proporcionando pautas y recomendaciones de integración?",
+        "a": ["VERDADERO", "FALSO"],
+        "r": "VERDADERO"
+    },{
+        "q": "VERDADERO O FALSO: NIST es considerado solo como una metodología.",
+        "a": ["VERDADERO", "FALSO"],
+        "r": "FALSO"
+    },{
+        "q": "VERDADERO O FALSO: Entre NIST y DevOps existe una relación enfocada al marco de ciberseguridad de DevOps",
+        "a": ["VERDADERO", "FALSO"],
+        "r": "FALSO"
+    },{
+        "q": "VERDADERO O FALSO: Es muy difícil adaptar NIST con DevOps",
+        "a": ["VERDADERO", "FALSO"],
+        "r": "VERDADERO"
+    },{
+        "q": "CIBERSEGURIDAD: ¿Qué debes hacer si recibes un correo que dice que tu cuenta ha sido vulnerada y te pide cambiar la contraseña?",
+        "a": ["Hago click en el enlace y la cambio", "No hago click y hago caso omiso al correo", "Respondo al correo con mis credenciales para preguntar que sucedió"],
+        "r": "No hago click y hago caso omiso al correo"
+    },{
+        "q": "CIBERSEGURIDAD: ¿Cada cuanto es recomendable cambiar tus contraseñas?",
+        "a": ["Entre 6 y 8 meses", "Entre 3 y 6 meses", "Cada año"],
+        "r": "Entre 3 y 6 meses"
+    },{
+        "q": "CIBERSEGURIDAD VERDADERO O FALSO: Es menos probable que corras riesgo si usas la misma contraseña en tus cuentas.",
+        "a": ["VERDADERO", "FALSO"],
+        "r": "FALSO"
+    },{
+        "q": "CIBERSEGURIDAD: ¿Cuál de las siguientes es una contraseña segura?",
+        "a": ["R3p0ster1A", "10002943", "123QWEasd"],
+        "r": "R3p0ster1A"
+    },{
+        "q": "CIBERSEGURIDAD: ¿Cómo podemos saber si una tienda en línea es segura?",
+        "a": ["Porque cuenta con un certificado digital y HTTP", "Porque tiene muchos comentarios positivos", "Porque cuenta con un certificado digital y HTTPS"],
+        "r": "Porque cuenta con un certificado digital y HTTPS"
+    },{
+        "q": "VERDADERO O FALSO: ISO crea guías y estandares solo para los Estados Unidos",
+        "a": ["VERDADERO", "FALSO"],
+        "r": "FALSO"
+    },{
+        "q": "VERDADERO O FALSO: NIST se enfoca en la investigación y desarrollo de tecnologías avanzadas",
+        "a": ["VERDADERO", "FALSO"],
+        "r": "VERDADERO"
+    },{
+        "q": "Nivel de implementación de control sobre algunas áreas de la organización",
+        "a": ["N4-Adaptable", "N1-Parcial", "N3-Repetible"],
+        "r": "N1-Parcial"
+    },{
+        "q": "Nivel de implementación donde la organización carece parcialmente de la gestión de riesgos",
+        "a": ["N4-Adaptable", "N1-Parcial", "N2-Riesgo informado"],
+        "r": "N2-Riesgo informado"
+    },{
+        "q": "Nivel de implementación de planes de riesgos sobre ciberseguridad",
+        "a": ["N3-Repetible", "N1-Parcial", "N3-Repetible"],
+        "r": "N3-Repetible"
+    },{
+        "q": "Nivel de implementación donde toda la organización toma decisiones, procedimientos y procesos contra riesgos",
+        "a": ["N4-Adaptable", "N1-Parcial", "N3-Repetible"],
+        "r": "N4-Adaptable"
+    },{
+        "q": "Acervo cultural: ¿Cuál es el río más largo de México?",
+        "a": ["Río Lerma", "Río Misisipi", "Río Rojo"],
+        "r": "Río Lerma"
+    },{
+        "q": "Acervo cultural: ¿Cuál es el clima que más predomina en México?",
+        "a": ["Templado", "Árido", "Templado subhúmedo"],
+        "r": "Templado subhúmedo"
+    },{
+        "q": "Acervo cultural: ¿A qué área de América pertenece México?",
+        "a": ["Sudamérica", "Norteamérica", "Centroamérica"],
+        "r": "Norteamérica"
+    },{
+        "q": "Acervo cinematográfico: ¿De que están hechas las garras de Wolverine?",
+        "a": ["Vibranio", "Carbonadio", "Adamantium"],
+        "r": "Adamantium"
+    }
+]
