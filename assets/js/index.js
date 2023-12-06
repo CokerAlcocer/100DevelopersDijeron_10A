@@ -28,7 +28,7 @@ const getQuiestions = () => {
         questions = data;
         questions.forEach((item, index) => {
             item.id = index + 1;
-            item.points = Math.floor(Math.random() * (50 - 10) + 11);
+            item.points = 5;
         });
 
         setNewQuestion();
@@ -38,29 +38,31 @@ const getQuiestions = () => {
 const setNewQuestion = () => {
     question = questions[Math.floor(Math.random() * (questions.length - 0))];
 
-    if(!answered.find(i => i.id === question.id) || answered.length === 0) {
-        
-        if(answered.length % 10 === 0 && answered.length !== 0) {
-            document.getElementById('game').classList.add('hidden');
-            document.getElementById('message').classList.remove('hidden');
-            document.getElementById('message').classList.add('d-flex', 'flex-column', 'justify-content-center');
-            document.getElementById('team').innerHTML = points.e1 > points.e2 ? 1 : 2;
-        }
-
-        console.clear();
-        document.getElementById('question').innerHTML = question.q;
-        document.getElementById('points').innerHTML = question.points + ' pnts.';
-        let content = '';
-        question.a.forEach((item, index) => {
-            content += `<div>${index + 1}) ${item}</div>`;
-        });
-        document.getElementById('answer').innerHTML = content;
-        answered.push(question);
-        console.log(questions.length);
-        console.log(questions.length - answered.length + " pregntas restantes");
-        console.log(question.r);
+    if(answered.length % 10 === 0 && answered.length !== 0) {
+        document.getElementById('game').classList.add('hidden');
+        document.getElementById('message').classList.remove('hidden');
+        document.getElementById('message').classList.add('d-flex', 'flex-column', 'justify-content-center');
+        document.getElementById('team').innerHTML = points.e1 > points.e2 ? 1 : 2;
     } else {
-        setNewQuestion();
+        if(answered.length === 0 || !answered.find(i => i.id === question.id)) {
+        
+        
+
+            console.clear();
+            document.getElementById('question').innerHTML = question.q;
+            document.getElementById('points').innerHTML = question.points + ' pnts.';
+            let content = '';
+            question.a.forEach((item, index) => {
+                content += `<div>${index + 1}) ${item}</div>`;
+            });
+            document.getElementById('answer').innerHTML = content;
+            answered.push(question);
+            console.log(questions.length);
+            console.log(questions.length - answered.length + " preguntas restantes");
+            console.log(question.r);
+        } else {
+            setNewQuestion();
+        }
     }
 }
 

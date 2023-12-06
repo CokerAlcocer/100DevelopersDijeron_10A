@@ -1,8 +1,7 @@
 .content {
     height: calc(100vh - 56px) !important;
     position: relative;
-    padding: 50px 50px 50px 50px;
-    color: white;
+    padding: 50px 50px 50px 50px; 
 }
 
 .gradient {
